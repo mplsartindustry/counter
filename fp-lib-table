@@ -4,4 +4,6 @@
   (lib (name "MAI_Display_7Segment")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_Display_7Segment.pretty")(options "")(descr ""))
   (lib (name "MAI_Connector_Audio")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_Connector_Audio.pretty")(options "")(descr ""))
   (lib (name "MAI_Package_DIP")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_Package_DIP.pretty")(options "")(descr ""))
+  (lib (name "MAI_Logo")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_Logo.pretty")(options "")(descr ""))
+  (lib (name "MAI_PanelHole")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_PanelHole.pretty")(options "")(descr ""))
 )
