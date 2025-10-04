@@ -268,7 +268,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "panel_gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
