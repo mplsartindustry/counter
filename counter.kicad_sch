@@ -3198,6 +3198,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LM7805_TO220"
 			(pin_names
 				(offset 0.254)
@@ -4004,6 +4087,16 @@
 		)
 		(uuid "5e2d61c4-dc63-406c-9cba-a24513d42b4e")
 	)
+	(text "1k"
+		(exclude_from_sim no)
+		(at 237.236 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ff26180-b846-4cf0-bac3-9e97bf5b48db")
+	)
 	(text "Tens"
 		(exclude_from_sim no)
 		(at 193.04 65.532 0)
@@ -4025,6 +4118,16 @@
 			(justify left)
 		)
 		(uuid "79126f8a-7706-49e0-9d12-30ae4bf69d63")
+	)
+	(text "10k"
+		(exclude_from_sim no)
+		(at 102.87 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0ecf126-4517-4d9c-80b6-28f22cf37721")
 	)
 	(junction
 		(at 133.35 166.37)
@@ -7489,7 +7592,7 @@
 			(uuid "5c07cfe5-e6d3-45e0-b809-eab999c08eca")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR05")
 					(unit 1)
@@ -7626,7 +7729,7 @@
 			(uuid "d819ead6-60cb-448f-8e8e-cfd7ab196994")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "SW1")
 					(unit 1)
@@ -7901,7 +8004,7 @@
 			(uuid "54b9bb0d-535b-40ae-8ca7-50ed005834cc")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR038")
 					(unit 1)
@@ -7987,7 +8090,7 @@
 			(uuid "97afd5e7-5071-4b8e-840e-aca5a228045d")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "D4")
 					(unit 1)
@@ -8506,7 +8609,7 @@
 			(uuid "7dd4439f-a92b-4133-9b4d-5c7e0c4fa8c9")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "J4")
 					(unit 1)
@@ -8571,7 +8674,7 @@
 			(uuid "1247c4ef-69cc-4b6f-961d-a28832e8d097")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR08")
 					(unit 1)
@@ -8955,7 +9058,7 @@
 			(uuid "fb3fc108-fb64-4078-906a-ea8b7bbfe8cd")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR043")
 					(unit 1)
@@ -9406,7 +9509,7 @@
 			(uuid "19528566-3a46-4621-80f0-8a5624bd6387")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR07")
 					(unit 1)
@@ -9472,7 +9575,7 @@
 			(uuid "7e62e963-c3ea-41d5-9a61-3ac9b03564f6")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR044")
 					(unit 1)
@@ -9543,7 +9646,7 @@
 			(uuid "7dd4439f-a92b-4133-9b4d-5c7e0c4fa8ca")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "J5")
 					(unit 1)
@@ -9609,7 +9712,7 @@
 			(uuid "2cfa00e7-05b9-48a9-b01e-aec64d95f91d")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR018")
 					(unit 1)
@@ -9804,7 +9907,7 @@
 			(uuid "aa6ef4d3-b487-449d-9c32-e87d3fba3764")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "J1")
 					(unit 1)
@@ -9830,7 +9933,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 124.46 146.05 90)
 			(effects
 				(font
@@ -9872,7 +9975,7 @@
 			(uuid "dc151838-099c-4013-b52d-0c75ccabc427")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R6")
 					(unit 1)
@@ -9940,7 +10043,7 @@
 			(uuid "5da6e33d-a946-408b-8fed-5668ef94b528")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R4")
 					(unit 1)
@@ -10007,7 +10110,7 @@
 			(uuid "f5593fab-aa02-4b1b-a5dd-8c7af2cf3f39")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R9")
 					(unit 1)
@@ -10429,7 +10532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 51.7652 182.88 0)
 			(effects
 				(font
@@ -10463,7 +10566,7 @@
 			(uuid "26cc60ca-ac49-472f-b77c-9b310b747643")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "C1")
 					(unit 1)
@@ -10791,7 +10894,7 @@
 			(uuid "8e6c69a2-f0d1-498d-b447-e0f14f89d5f6")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "U7")
 					(unit 1)
@@ -10858,7 +10961,7 @@
 			(uuid "bcbb4f98-5740-41ea-89b9-541349d8dac9")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR014")
 					(unit 1)
@@ -11356,7 +11459,7 @@
 			(uuid "22f5a29e-c48c-481c-adc9-00233d2ad099")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "U2")
 					(unit 3)
@@ -11495,7 +11598,7 @@
 			(uuid "0f1dac1d-3ac1-4971-b797-10a872206390")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "U1")
 					(unit 1)
@@ -11716,7 +11819,7 @@
 			(uuid "22f5a29e-c48c-481c-adc9-00233d2ad09b")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "U4")
 					(unit 3)
@@ -11782,7 +11885,7 @@
 			(uuid "32f90b28-d016-4e5d-8fbc-fbdbfaf66907")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR012")
 					(unit 1)
@@ -11848,7 +11951,7 @@
 			(uuid "df81a962-6e28-4491-a2ba-2c6b551a44b9")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR010")
 					(unit 1)
@@ -12052,7 +12155,7 @@
 			(uuid "d1d4ec53-fc04-4254-a280-b226b02ab216")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "Q1")
 					(unit 1)
@@ -12119,7 +12222,7 @@
 			(uuid "bcbb4f98-5740-41ea-89b9-541349d8daca")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR015")
 					(unit 1)
@@ -12189,7 +12292,7 @@
 			(uuid "cff4e415-bb85-4a5b-9726-e432f84bb2ce")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R2")
 					(unit 1)
@@ -12259,9 +12362,73 @@
 			(uuid "26cc60ca-ac49-472f-b77c-9b310b747644")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.91 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "695be185-24ff-416a-a69e-1981dfc7474e")
+		(property "Reference" "H1"
+			(at 171.45 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 171.45 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "counter"
+				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12746,7 +12913,7 @@
 			(uuid "54b9bb0d-535b-40ae-8ca7-50ed005834cd")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR037")
 					(unit 1)
@@ -13189,7 +13356,7 @@
 			(uuid "5c07cfe5-e6d3-45e0-b809-eab999c08ecb")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR06")
 					(unit 1)
@@ -13256,7 +13423,7 @@
 			(uuid "2cfa00e7-05b9-48a9-b01e-aec64d95f91e")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR017")
 					(unit 1)
@@ -13846,7 +14013,7 @@
 			(uuid "cff4e415-bb85-4a5b-9726-e432f84bb2cf")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R3")
 					(unit 1)
@@ -14016,7 +14183,7 @@
 			(uuid "88837d25-8678-406f-be49-769bbbab6a0e")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR09")
 					(unit 1)
@@ -14362,7 +14529,7 @@
 			(uuid "7dd4439f-a92b-4133-9b4d-5c7e0c4fa8cb")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "J2")
 					(unit 1)
@@ -14888,7 +15055,7 @@
 			(uuid "a4750813-d730-4c5d-977f-d49a0dd3f41a")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "D1")
 					(unit 1)
@@ -15025,7 +15192,7 @@
 			(uuid "2cfa00e7-05b9-48a9-b01e-aec64d95f91f")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR019")
 					(unit 1)
@@ -15095,7 +15262,7 @@
 			(uuid "f2925f06-2ccf-467c-92a7-9ba77f2caa86")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R5")
 					(unit 1)
@@ -15181,7 +15348,7 @@
 			(uuid "97afd5e7-5071-4b8e-840e-aca5a228045e")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "D3")
 					(unit 1)
@@ -15248,7 +15415,7 @@
 			(uuid "c0d4948c-e71c-4a8d-804e-bc614dda5903")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR040")
 					(unit 1)
@@ -15315,7 +15482,7 @@
 			(uuid "89368c7b-8141-494f-8deb-d14924127ede")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR039")
 					(unit 1)
@@ -15382,7 +15549,7 @@
 			(uuid "a88fad68-b72d-4fb8-aaa0-9b46bb4b9564")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR020")
 					(unit 1)
@@ -15658,7 +15825,7 @@
 			(uuid "5c07cfe5-e6d3-45e0-b809-eab999c08ecc")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR04")
 					(unit 1)
@@ -15895,7 +16062,7 @@
 			(uuid "0842eef1-38f8-4936-becf-389d8b9cf8d4")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR02")
 					(unit 1)
@@ -15961,7 +16128,7 @@
 			(uuid "df81a962-6e28-4491-a2ba-2c6b551a44ba")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR011")
 					(unit 1)
@@ -16032,7 +16199,7 @@
 			(uuid "7dd4439f-a92b-4133-9b4d-5c7e0c4fa8cc")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "J3")
 					(unit 1)
@@ -16099,7 +16266,7 @@
 			(uuid "bcbb4f98-5740-41ea-89b9-541349d8dacb")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR013")
 					(unit 1)
@@ -16166,7 +16333,7 @@
 			(uuid "31db9b28-2d5d-4752-891c-037b447c97df")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR021")
 					(unit 1)
@@ -16300,7 +16467,7 @@
 			(uuid "bcbb4f98-5740-41ea-89b9-541349d8dacc")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR016")
 					(unit 1)
@@ -16579,7 +16746,7 @@
 			(uuid "d819ead6-60cb-448f-8e8e-cfd7ab196995")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "SW2")
 					(unit 1)
@@ -16649,7 +16816,7 @@
 			(uuid "f5593fab-aa02-4b1b-a5dd-8c7af2cf3f3a")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R10")
 					(unit 1)
@@ -16716,7 +16883,7 @@
 			(uuid "0842eef1-38f8-4936-becf-389d8b9cf8d5")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR01")
 					(unit 1)
@@ -17096,7 +17263,7 @@
 			(uuid "0842eef1-38f8-4936-becf-389d8b9cf8d6")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "#PWR03")
 					(unit 1)
@@ -17312,7 +17479,7 @@
 			(uuid "22f5a29e-c48c-481c-adc9-00233d2ad09f")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "U3")
 					(unit 3)
@@ -17906,7 +18073,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 124.46 120.65 90)
 			(effects
 				(font
@@ -17948,7 +18115,7 @@
 			(uuid "dc151838-099c-4013-b52d-0c75ccabc428")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "R1")
 					(unit 1)
@@ -18269,7 +18436,7 @@
 			(uuid "8e6c69a2-f0d1-498d-b447-e0f14f89d5f9")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "U5")
 					(unit 1)
@@ -18381,7 +18548,7 @@
 			(uuid "8e6c69a2-f0d1-498d-b447-e0f14f89d5fa")
 		)
 		(instances
-			(project ""
+			(project "counter"
 				(path "/d0354ff8-d5f8-4c5f-9886-801d2b536302"
 					(reference "U6")
 					(unit 1)
